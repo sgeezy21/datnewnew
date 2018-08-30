@@ -1,5 +1,11 @@
 <?php
 
+	echo $_POST['make'];
+	echo $_POST['model'];
+	echo $_POST['start'];
+	echo $_POST['end'];
+	echo $_POST['EmployeeName'];
+
 	// Define function to handle basic user input
 	function parse_input($data) 
 	{
@@ -123,5 +129,5 @@
 	//$_SESSION['prevSelections'] = $prevSelections;
 
 	/* Redirect browser to home page */
-	header("Location: /"); 
+	//header("Location: /"); 
 ?>
