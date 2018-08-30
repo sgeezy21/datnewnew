@@ -108,7 +108,7 @@
 	}
 
 	// Initialize an array of previously-posted info
-	$prevSelections = array();
+	//$prevSelections = array();
 
 	/* Populate array with key-value pairs
 	$prevSelections['errorMessage']= $errorMessage;
