@@ -97,7 +97,7 @@
 				'" . $model . "', 
 				'$start', 
 				'$end', 
-				'" . $EmployeeName . "' ,
+				'" . $EmployeeName . "' 
 				)";
 		
 		echo $tsql;
