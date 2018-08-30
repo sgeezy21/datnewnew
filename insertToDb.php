@@ -1,11 +1,5 @@
 <?php
 
-	echo $_POST['make'];
-	echo $_POST['model'];
-	echo $_POST['start'];
-	echo $_POST['end'];
-	echo $_POST['EmployeeName'];
-
 	// Define function to handle basic user input
 	function parse_input($data) 
 	{
@@ -105,6 +99,8 @@
 				'" . $end . "', 
 				'" . $EmployeeName . "', 
 				)";
+		
+		echo $tsql;
 
 		// Run query
 		$sqlQueryStatus= sqlsrv_query($conn, $tsql);
