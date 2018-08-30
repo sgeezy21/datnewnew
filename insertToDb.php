@@ -95,9 +95,9 @@
 		VALUES (
 				'" . $make . "', 
 				'" . $model . "', 
-				'" . $start . "', 
-				'" . $end . "', 
-				'" . $EmployeeName . "', 
+				'$start', 
+				'$end', 
+				'" . $EmployeeName . "' 
 				)";
 		
 		echo $tsql;
