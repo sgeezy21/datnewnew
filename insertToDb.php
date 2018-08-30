@@ -25,11 +25,11 @@
 	//$expenseDay = $expenseMonth = $expenseYear = $expenseAmount = $expenseNote = $expenseCategory = $errorMessage = NULL;
 
 	// Get input variables
-	$make= (int) parse_input($_POST['make']);
-	$model= (int) parse_input($_POST['model']);
-	$start= (int) parse_input($_POST['start']);
-	$end= (float) parse_input($_POST['end']);
-	$EmployeeName= parse_input($_POST['EmployeeName']);
+	$make= $_POST['make'];
+	$model= $_POST['model'];
+	$start= $_POST['start'];
+	$end= $_POST['end'];
+	$EmployeeName= $_POST['EmployeeName'];
 	
 
 	// Get the authentication claims stored in the Token Store after user logins using Azure Active Directory
